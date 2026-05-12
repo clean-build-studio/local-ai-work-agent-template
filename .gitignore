@@ -1,0 +1,32 @@
+# Environment variables
+.env
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Local private data
+data/inbox/*
+data/processed/*
+data/outputs/*
+
+# Keep folder structure in GitHub
+!data/inbox/.gitkeep
+!data/processed/.gitkeep
+!data/outputs/.gitkeep
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
